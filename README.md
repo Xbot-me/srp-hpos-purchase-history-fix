@@ -1,5 +1,16 @@
 # SUMO Reward Points — Purchase History Tier Multiplier Fix (WooCommerce HPOS)
 
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4.svg)
+![WooCommerce HPOS](https://img.shields.io/badge/WooCommerce-HPOS-96588a.svg)
+![Status: unofficial patch](https://img.shields.io/badge/status-unofficial%20patch-orange.svg)
+
+Independent fix for the **SUMO Reward Points** WooCommerce plugin: under
+High-Performance Order Storage, customer purchase-history tiers (e.g.
+Silver / Gold / VIP) silently fail to apply, and every customer earns
+reward points at the base/lowest tier rate regardless of real lifetime
+spend.
+
 **Not affiliated with the plugin author.** This is an independent bugfix for a
 specific defect found in the "Purchase History based on Earning Level"
 feature of the **SUMO Reward Points - WooCommerce Reward System** plugin
@@ -128,6 +139,14 @@ release cycle, but the only way this gets fixed for *every* user of the
 plugin (not just people who find this repo) is if the vendor ships it in an
 official update. If you report it, feel free to link back here for the
 technical detail.
+
+## Found this useful?
+
+If this patch fixed the issue on your store, consider starring the repo —
+it's the main way other people running into the same bug will find it. If
+you're on a different version of the plugin than the one this was diagnosed
+against and it still applies (or doesn't), opening an issue with your
+version number helps confirm how widespread this is.
 
 ## License
 
